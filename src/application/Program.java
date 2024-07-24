@@ -10,7 +10,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Quantos pessoas serao digitadas? ");
+		System.out.print("Quantos pessoas serao digitadas no programa? ");
 		int n = sc.nextInt();
 		
 		String vectNome[] = new String[n];
@@ -22,9 +22,9 @@ public class Program {
 			System.out.print("Nome: ");
 			sc.nextLine();
 			vectNome[i] = sc.nextLine();
-			System.out.print("Idade: ");
+			System.out.print("Idade da pessoa: ");
 			vectIdade[i] = sc.nextInt();
-			System.out.print("Altura: ");
+			System.out.print("Altura da pessoa: ");
 			vectAltura[i] = sc.nextDouble();			
 		}
 		
@@ -43,7 +43,7 @@ public class Program {
 		double alturaMedia = somaAltura / n;
 		
 		System.out.println("");
-		System.out.printf("Altura media: %.2f%n", alturaMedia);
+		System.out.printf("Altura media das pessoas listadas: %.2f%n", alturaMedia);
 		System.out.printf("Pessoas com menos de 16 anos: %.1f%%%n", percentualMenores);
 		
 		for(int i=0; i<n; i++) {
