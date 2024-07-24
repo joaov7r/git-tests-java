@@ -18,7 +18,7 @@ public class Program {
 		double vectAltura[] = new double[n];
 		
 		for(int i=0; i<n; i++) {
-			System.out.println("Dados da " + (i+1) + "a pessoa:");
+			System.out.println("Dados da " + (i+1) + "a pessoa a serem coletadas informações:");
 			System.out.print("Nome: ");
 			sc.nextLine();
 			vectNome[i] = sc.nextLine();
