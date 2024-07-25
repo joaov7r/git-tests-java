@@ -43,7 +43,7 @@ public class Program {
 		double alturaMedia = somaAltura / n;
 		
 		System.out.println("");
-		System.out.printf("Altura media das pessoas listadas: %.2f%n", alturaMedia);
+		System.out.printf("Altura media das pessoas listadas no programa: %.2f%n", alturaMedia);
 		System.out.printf("Pessoas com menos de 16 anos: %.1f%%%n", percentualMenores);
 		
 		for(int i=0; i<n; i++) {
